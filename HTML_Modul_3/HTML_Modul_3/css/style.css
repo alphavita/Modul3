@@ -1,0 +1,151 @@
+body {
+	background-color: #f9f9f9;
+	width: 1366px;
+	 font-family: 'Open Sans', arial;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/font/open_sans.ttf') format('truetype');
+}
+.wraper {
+	width: 970px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding-left: 45px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	box-shadow:
+ 	 5px 0 8px -4px rgba(219,219,219,1),
+    -5px 0 8px -4px rgba(219,219,219,1);
+}
+.logo {
+	margin-bottom: 40px;
+}
+
+/*HEADER*/
+nav ul {
+  list-style: none;
+  background-color: #5c5c5c;
+  margin-bottom: 40px;
+  }
+nav a {
+  	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+	display: block;
+	color: #dbdbdb;
+	line-height: 40px;
+	padding-left: 23px;
+	padding-right: 30px;
+	border-left: 2px solid #5c5c5c;
+	border-right: 2px solid #5c5c5c;
+}
+nav a:hover {
+	background-color: #3d3d3d;
+	border-left: 2px solid #838383;
+	border-right: 2px solid #838383;
+}
+
+nav li {
+	float: left;
+}
+nav ul {
+	overflow: hidden;
+}
+/*MAIN*/
+.sidebar {
+	float: left;
+	width: 239px;
+}
+.sidebar ul {
+	list-style: none;
+}
+.sidebar a {
+	text-decoration: none;
+	color: #797979;
+	display: block;
+	line-height: 39px;
+	height: 39px;
+	padding-left: 23px;
+
+}
+.sidebar li {
+	border-bottom: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+}
+.sidebar li:first-of-type {
+	border-top: 1px solid #c8c8c8;
+}
+.clearfix {
+	clear: both;
+}
+.sidebar a:hover {
+	background-color: #dbdbdb;
+	color: #636363;
+	padding-left: 34px;
+}
+.content {
+	float: left;
+	width: 682px;
+	margin-left: 48px;
+	margin-bottom: 60px;
+}
+.galery {
+	border: 1px solid #c8c8c8;
+	height: 398px;
+	width: 678px;
+	margin-bottom: 35px;
+}
+.galery img {
+	display: block;
+	margin: 45px auto;
+}
+.describe {
+	padding-left: 30px;
+	padding-right: 34px;
+	color: #2c2c2c;
+	line-height: 21px;
+}
+/*FOOTER*/
+.navfooter p {
+
+    float: right;
+	color: #4c4c4c;
+	line-height: 40px;
+}
+
+.navfooter{
+	/*margin-left: 43px;
+	margin-right: 43px;*/
+	height: 40px;
+	background-color: #dbdbdb;
+	/*font-family: "open Sans";*/
+	font-size: 14px;
+	padding-left: 23px;
+	padding-right: 23px;
+	margin-bottom: 60px;
+
+}
+.navfooter ul {
+	background-color: #dbdbdb;
+}
+.navfooter a{
+	text-decoration: none;
+	color: #2c2c2c;
+	padding-right:96px;
+	line-height: 40px;
+
+
+}
+.navfooter span{
+	float: right;
+	text-align: right;
+	line-height: 40px;
+/*	font-family: "Open Sans";*/
+}
+.navfooter a:hover{
+	text-decoration: underline;
+}
+
+
+
